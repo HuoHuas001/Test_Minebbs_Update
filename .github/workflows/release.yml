@@ -16,7 +16,7 @@ jobs:
         - name: Minebbs-Auto-Release
           uses: HuoHuas001/Minebbs-Auto-Release@v1.0.6
           with: 
-            resources: '1'
+            resources: '11830'
             token: ${{ secrets.MINEBBSKEY }}
             title: ${{ github.ref_name }}
             new_version: ${{ github.ref_name }}
